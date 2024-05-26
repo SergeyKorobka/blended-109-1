@@ -4,19 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <h1>Hello world!!!!</h1>
-    <p>sub title</p>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-       <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
+    <div class="wrapper">
+      <input
+        class="checkbox visually-hidden"
+        type="checkbox"
+        name="policy"
+        id="checkbox"
+      />
+      <label class="label" for="checkbox">
+        <span class="custom-checkbox"></span>Lorem, ipsum dolor.
+        <a href="">Lorem, ipsum.</a>
+      </label>
+    </div>
+
+    <div class="form-field">
+      <label class="label" for="name">name</label>
+      <div class="input-wrapper">
+        <input class="input" id="name" type="text" />
+        <svg class="icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-antenna"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="boxes">
+        <li class="box">box1</li>
+        <li class="box">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          accusantium sapiente pariatur labore adipisci, amet ut maiores quae
+          autem quisquam.
+        </li>
+      </ul>
+    </div>
+
+    <!-- <div class="wrapper">
+      <h1 class="title">Title</h1>
+      <h2 class="sub-title">Sub Title</h2>
+      <div class="sub-wrapper">
+        <p class="text">Text1</p>
+        <p class="text">Text2</p>
+        <p class="text">Text3</p>
+        <p class="text">Text4</p>
+        <p class="text">Text5</p>
+      </div>
+      <p class="text">Text1</p>
+      <p class="text">Text2</p>
+      <p class="text">Text3</p>
+      <p class="text">Text4</p>
+      <div class="sub-wrapper">
+        <p class="text">Text1</p>
+        <p class="text">Text2</p>
+        <p class="text">Text3</p>
+        <p class="text">Text4</p>
+        <p class="text">Text5</p>
+      </div>
+      <p class="text">Text5</p>
+    </div>
+    <br />
+    <div class="wrapper">
+      <h1 class="title">Title</h1>
+      <p class="text">Text1</p>
+      <p class="text">Text2</p>
+      <h2 class="sub-title">Sub Title</h2>
+      <p class="text">Text3</p>
+      <p class="text">Text4</p>
+      <p class="text">Text5</p>
+    </div>
+    <br />
+    <div class="wrapper">
+      <h2 class="sub-title">Sub Title</h2>
+      <h1 class="title">Title</h1>
+      <p class="text">Text1</p>
+      <p class="text">Text2</p>
+      <p class="text">Text3</p>
+      <p class="text">Text4</p>
+      <p class="text">Text5</p>
+    </div> -->
   </body>
 </html>
